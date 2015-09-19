@@ -1,0 +1,47 @@
+<?php
+return [
+    // Username and host for the music machine.
+    'music-ip' => 'pi@192.168.1.1',
+
+    // Kodi database connection information.
+    'kodi-username' => 'username',
+    'kodi-password' => 'password',
+    'kodi-database' => 'MyVideos90',
+    'kodi-hostname' => 'localhost',
+
+    // Kodi player IP and port.
+    'kodi-player' => '192.168.1.2:80',
+
+    // List of kid shows to choose from.
+    'kid-shows' => [
+        'Paw Patrol',
+        'Scooby Doo',
+    ],
+
+    // List of 47 or 60 minute adult shows to choose from.
+    'full-shows' => [
+        '12 Monkeys',
+        'Castle',
+        'Continuum',
+        'Dark Matter',
+        'Falling Skies',
+        'Game of Thrones',
+        'Gotham',
+        'Killjoys',
+        'Lucifer',
+        'Marvel\'s Agent Carter',
+        'Marvel\'s Agents of S.H.I.E.L.D.',
+        'Marvel\'s Daredevil',
+        'Mr. Robot',
+        'Once Upon a Time',
+        'Penny Dreadful',
+        'Silicon Valley',
+        'Supernatural',
+    ],
+
+    // List of shorter shows to choose from.
+    'half-shows' => [
+        'The Guild',
+        'Robot Chicken',
+    ],
+];
