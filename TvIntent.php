@@ -87,7 +87,6 @@ class TvIntent implements Intent
             return 'I don\'t have a list of ' . $size . ' shows to choose from';
         }
 
-        return 'Starting the next unwatched ' . $size . ' show.';
         $path = $this->findNextShow($shows);
 
         $payload = [
