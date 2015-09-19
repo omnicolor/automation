@@ -4,16 +4,56 @@
  */
 class TvIntent implements Intent
 {
+    /**
+     * @var \PDO Database connection handle
+     */
     protected $dbh;
+
+    /**
+     * @var string Database username
+     */
     protected $username;
+
+    /**
+     * @var string Database password
+     */
     protected $password;
+
+    /**
+     * @var string Database hostname
+     */
     protected $hostname;
+
+    /**
+     * @var string Name of the database to connect to
+     */
     protected $database;
+
+    /**
+     * @var string Kodi (or XBMC) machine and port to control
+     */
     protected $player;
+
+    /**
+     * @var array List of long shows to choose from
+     */
     protected $fullShows = [];
+
+    /**
+     * @var array List of short shows to choose from
+     */
     protected $halfShows = [];
+
+    /**
+     * @var array List of kids shows to choose from
+     */
     protected $kidsShows;
 
+    /**
+     * Set up the intent.
+     * @param array $config Configuration data
+     * @throws \RuntimeException
+     */
     public function __construct($config)
     {
         if (!isset($config['kodi-username'])
