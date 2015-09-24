@@ -115,6 +115,7 @@ class TvIntent implements Intent
             case 'short':
                 $shows = $this->halfShows;
                 break;
+            case 'kids':
             case 'kid':
             case 'children':
                 $shows = $this->kidsShows;
