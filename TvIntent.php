@@ -47,7 +47,7 @@ class TvIntent implements Intent
     /**
      * @var array List of kids shows to choose from
      */
-    protected $kidsShows;
+    protected $kidsShows = [];
 
     /**
      * Set up the intent.
