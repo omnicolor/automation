@@ -1,0 +1,37 @@
+{
+  "intents": [
+    {
+      "intent": "HouseMusicIntent",
+      "slots": []
+    },
+    {
+      "intent": "QuietHouseIntent",
+      "slots": []
+    },
+    {
+      "intent": "TimeIntent",
+      "slots": []
+    },
+    {
+      "intent": "HouseMusicVolumeIntent",
+      "slots": [
+        {
+          "name": "direction",
+          "type": "LITERAL"
+        }]
+    },
+    {
+      "intent":"TvIntent",
+      "slots": [
+        {
+        "name": "size",
+        "type": "LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "HouseMusicNextSongIntent",
+      "slots": []
+    }
+  ]
+}
