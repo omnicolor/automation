@@ -1,7 +1,7 @@
 # Home automation
 Intent framework for home automation using Amazon Echo, Z-wave devices, Raspberry Pis, Kodi, and anything else I have laying around.
 
-## Setup
+## Alexa Setup
 
 1. If you don't already have an account on https://developer.amazon.com, you'll need to go create one.
 2. Go to https://developer.amazon.com/edw/home.html#/skills and click the button to add a new skill.
@@ -15,3 +15,12 @@ Intent framework for home automation using Amazon Echo, Z-wave devices, Raspberr
   2. **Sample Utterances** - Text that tells Alexa which intents get fired when you say certain things, as well as how the slots fit. See https://raw.githubusercontent.com/omnicolor/automation/master/sample-utterances.txt for the utterances I've got.
 5. **SSL Certificate** - If you don't have a real SSL certificate, you can upload the public certificate for your self-signed one here.
 6. **Test** - Enable the skill for testing on this account. You can then enter utterances and click the button to test out your service.
+
+## Intent configuration
+
+Next, you need to configure your endpoint to respond to Alexa. I've got
+a sample file (config.php.dist) that you can copy over. It's got the IP
+addresses, a list of shows to try to pull from the Kodi database, and some
+infrared codes for turning things on and off. Much of that will probably not be
+useful or relevant to you, but it should give you an idea of how things are set
+up.
