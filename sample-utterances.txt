@@ -1,0 +1,19 @@
+HouseMusicIntent start house music
+HouseMusicIntent make the house rock
+HouseMusicIntent start the party
+HouseMusicVolumeIntent turn it {up|direction}
+HouseMusicVolumeIntent turn it {down|direction}
+HouseMusicVolumeIntent turn the music {up|direction}
+HouseMusicVolumeIntent turn the music {down|direction}
+HouseMusicNextSongIntent this song sucks
+HouseMusicNextSongIntent next song
+QuietHouseIntent stop the party
+QuietHouseIntent make the house quiet
+TvIntent play our next {full|size} show
+TvIntent play our next {kids|size} show
+TvIntent play our next {half|size} show
+TvIntent play a {full|size} show
+TvIntent play a {half|size} show
+TvIntent play a {kids|size} show
+TimeIntent is it time to feed Scriptlet
+TimeIntent is it seven yet
